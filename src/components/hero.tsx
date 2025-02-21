@@ -27,8 +27,7 @@ const Hero = () => {
           transition={{ delay: 0.4, duration: 0.8 }}
           className="text-xl md:text-2xl text-gray-800 dark:text-gray-200 mb-8"
         >
-          Connect, Learn, and Grow with Bangladesh's JavaScript Community
-          Talk.js
+          {`Connect, Learn, and Grow with Bangladesh's JavaScript Community`}
         </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
